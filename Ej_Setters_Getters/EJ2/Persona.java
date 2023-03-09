@@ -1,3 +1,5 @@
+package Ej_Setters_Getters;
+
 public class Persona {
     private String dni, nombre, apellidos;
     private int  edad;

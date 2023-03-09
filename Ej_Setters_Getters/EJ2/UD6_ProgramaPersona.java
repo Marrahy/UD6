@@ -1,3 +1,5 @@
+package Ej_Setters_Getters;
+
 import java.util.Scanner;
 
 public class UD6_ProgramaPersona {

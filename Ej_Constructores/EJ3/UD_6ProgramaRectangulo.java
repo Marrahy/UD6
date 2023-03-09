@@ -1,5 +1,5 @@
 package EJ3;
-
+//CONSTRUCOR Sergi Marrahy Arenas
 public class UD_6ProgramaRectangulo {
     public static void main(String[] args) {
         Rectangulo rectangulo1 = new Rectangulo(0, 0, 5, 5);

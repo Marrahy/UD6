@@ -6,7 +6,7 @@ public class Articulo {
     double iva = 21;
     int cuantosQuedan;
 
-    public Articulo(double precio, double iva, int cuantosQuedan) {
+    public Articulo(String nombre, double precio, double iva, int cuantosQuedan) {
         if (iva > 0 && iva < 100)
             this.iva = iva;
         else

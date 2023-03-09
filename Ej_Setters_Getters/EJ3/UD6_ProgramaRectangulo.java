@@ -1,3 +1,5 @@
+package Ej_Setters_Getters;
+
 public class UD6_ProgramaRectangulo {
     public static void main(String[] args) {
         Rectangulo rectangulo1 = new Rectangulo();

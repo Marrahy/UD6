@@ -1,3 +1,5 @@
+package Ej_Setters_Getters;
+
 public class Articulo {
     private String nombre;
     private double precio, iva;

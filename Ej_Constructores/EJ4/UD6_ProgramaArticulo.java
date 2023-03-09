@@ -1,8 +1,8 @@
 package EJ4;
-
+//CONSTRUCTOR Sergi Marrahy Arenas
 public class UD6_ProgramaArticulo {
     public static void main(String[] args) {
-        Articulo producto = new Articulo(15, 21, 127);
+        Articulo producto = new Articulo("Pijama", 15, 21, 127);
         producto.nombre = "Pijama";
         producto.precio = 15;
         producto.cuantosQuedan = 127;

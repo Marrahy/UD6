@@ -1,3 +1,5 @@
+package Ej_Setters_Getters;
+
 public class UD6_ProgramaArticulo {
     public static void main(String[] args) {
         Articulo articulo1 = new Articulo();

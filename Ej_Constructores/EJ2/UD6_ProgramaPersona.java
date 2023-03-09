@@ -1,4 +1,5 @@
 package EJ2;
+//CONSTRUCTOR Sergi Marrahy Arenas
 
 import java.util.Scanner;
 
