@@ -1,4 +1,4 @@
-package Ej_Setters_Getters;
+package Ej_Setters_Getters.EJ1;
 
 public class Punto {
     private int x, y;

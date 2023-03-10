@@ -1,4 +1,4 @@
-package Ej_Setters_Getters;
+package Ej_Setters_Getters.EJ4;
 
 public class Articulo {
     private String nombre;

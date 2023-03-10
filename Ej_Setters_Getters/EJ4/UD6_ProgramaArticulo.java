@@ -1,4 +1,4 @@
-package Ej_Setters_Getters;
+package Ej_Setters_Getters.EJ4;
 
 public class UD6_ProgramaArticulo {
     public static void main(String[] args) {

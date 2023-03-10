@@ -1,4 +1,4 @@
-package Ej_Setters_Getters;
+package Ej_Setters_Getters.EJ1;
 
 public class UD6_ProgramaPunto {
     public static void main(String[] args) {

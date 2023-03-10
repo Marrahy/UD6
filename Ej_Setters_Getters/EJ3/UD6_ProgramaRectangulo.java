@@ -1,4 +1,6 @@
-package Ej_Setters_Getters;
+//Sergi Marrahy Arenas Setters & Getters
+
+package Ej_Setters_Getters.EJ3;
 
 public class UD6_ProgramaRectangulo {
     public static void main(String[] args) {
@@ -21,8 +23,8 @@ public class UD6_ProgramaRectangulo {
         }
         else {
             System.out.println("Rectángulo 1:");
-            System.out.println(rectangulo1_X1 + " " + rectangulo1_Y1);
-            System.out.println(rectangulo1_X2 + " " + rectangulo1_Y2);
+            System.out.println("(" + rectangulo1_X1 + "," + rectangulo1_Y1 + ")");
+            System.out.println("(" + rectangulo1_X2 + "," + rectangulo1_Y2 + ")");
         }
 
         Rectangulo rectangulo2 = new Rectangulo();
@@ -44,8 +46,8 @@ public class UD6_ProgramaRectangulo {
         }
         else {
             System.out.println("Rectángulo 2:");
-            System.out.println(rectangulo2_X1 + " " + rectangulo2_Y1);
-            System.out.println(rectangulo2_X2 + " " + rectangulo2_Y2);
+            System.out.println("(" + rectangulo2_X1 + "," + rectangulo2_Y1 + ")");
+            System.out.println("(" + rectangulo2_X2 + "," + rectangulo2_Y2 + ")");
         }
     }   
 }

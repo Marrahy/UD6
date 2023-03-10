@@ -1,4 +1,4 @@
-package Ej_Setters_Getters;
+package Ej_Setters_Getters.EJ2;
 
 import java.util.Scanner;
 
