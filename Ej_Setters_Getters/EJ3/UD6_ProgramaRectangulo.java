@@ -10,22 +10,11 @@ public class UD6_ProgramaRectangulo {
         rectangulo1.setY1(0);
         rectangulo1.setX2(5);
         rectangulo1.setY2(5);
-
+        
         int rectangulo1_X1 = rectangulo1.getX1();
         int rectangulo1_Y1 = rectangulo1.getY1();
         int rectangulo1_X2 = rectangulo1.getX2();
         int rectangulo1_Y2 = rectangulo1.getY2();
-
-        if (rectangulo1_X2 < rectangulo1_X1 && rectangulo1_Y2 < rectangulo1_Y1) {
-            System.out.println();
-            System.out.println("Rectángulo 1:");
-            System.out.println("ERROR al instanciar los valores del rectángulo");
-        }
-        else {
-            System.out.println("Rectángulo 1:");
-            System.out.println("(" + rectangulo1_X1 + "," + rectangulo1_Y1 + ")");
-            System.out.println("(" + rectangulo1_X2 + "," + rectangulo1_Y2 + ")");
-        }
 
         Rectangulo rectangulo2 = new Rectangulo();
 

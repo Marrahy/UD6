@@ -27,4 +27,38 @@ public class Rectangulo {
     public int getY2() {
         return y2;
     }
+    public void setX1Y1(int x1 ,int y1) {
+        this.x1 = x1;
+        this.y1 = y1;
+    }
+    public void setX2Y2(int x2 ,int y2) {
+        this.x2 = x2;
+        this.y2 = y2;
+    }
+    public void all(int x1 ,int y1, int x2, int y2) {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x2;
+        this.y2 = y2;
+    }
+    public void imprime() {
+        if (x2 < x1 && y2 < y1) {
+            System.out.println();
+            System.out.println("Rectángulo 1:");
+            System.out.println("ERROR al instanciar los valores del rectángulo");
+        }
+        else {
+            System.out.println("Rectángulo 1:");
+            System.out.println("(" + x1 + "," + y1 + ")");
+            System.out.println("(" + x2 + "," + y2 + ")");
+        }
+        System.out.println("Perímetro: " + getPerimetro());
+        System.out.println("Área: " + getArea());
+    }
+    public int getPerimetro() {
+        return x1 + y1 + x2 + y2;
+    }
+    public int getArea() {
+        return (x2 - x1) * (y2 - y1);
+    }
 }
