@@ -31,7 +31,7 @@ public class Persona {
 
     public void imprime() {
         if (esMayordeEdad() && !esJubilado())
-            System.out.println(nombre + " " +appellidos + " con DNI: " + dni + " es mayor de edad");
+            System.out.println(nombre + " " + appellidos + " con DNI: " + dni + " es mayor de edad");
         else {
             if (esJubilado())
                 System.out.println(nombre + " " + appellidos + " con DNI: " + dni + " es jubilado");
